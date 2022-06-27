@@ -1,4 +1,4 @@
-package com.sgarcia.demo;
+package com.sgarcia;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
