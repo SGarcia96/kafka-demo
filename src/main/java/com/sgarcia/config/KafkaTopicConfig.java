@@ -8,10 +8,10 @@ import org.springframework.kafka.config.TopicBuilder;
 
 @Configuration
 public class KafkaTopicConfig {
-	
-	@Bean
-	public NewTopic sgarciaTopic() {
-		return TopicBuilder.name("sgarcia")
-				.build();
-	}
+
+    @Bean
+    NewTopic sgarciaTopic() {
+        return TopicBuilder.name("sgarcia")
+                .build();
+    }
 }
